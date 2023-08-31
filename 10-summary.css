@@ -1,0 +1,106 @@
+/* @font-face {
+  font-family: shabnam;
+  font-style: normal;
+  font-weight: 100;
+  src: url("font/shabnam-font-v2.4.0/Shabnam-Light.eot") format("eot");
+  src: url("font/shabnam-font-v2.4.0/Shabnam-Light.woff") format("woff"),
+    url("font/shabnam-font-v2.4.0/Shabnam-Light.ttf") format("ttf"),
+    url("font/shabnam-font-v2.4.0/Shabnam-Light.woff2") format("woff2");
+   }
+
+
+*{
+  font-family: shabnam;
+  font-size: 15px;
+} */
+
+
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("font/vazir-font-v18.0.0/Vazir-Light.eot") format("eot");
+    src: url("font/vazir-font-v18.0.0/Vazir-Light.woff") format("woff"),
+      url("font/vazir-font-v18.0.0/Vazir-Light.ttf") format("ttf"),
+      url("font/vazir-font-v18.0.0/Vazir-Light.woff2") format("woff2");
+  }
+  
+  
+  *{
+    font-family: vazir;
+    font-size: 15px;
+  }
+
+
+    .m-auto{
+      margin: 0 auto
+    }
+    .login-form{
+      
+      max-width: 500px;
+      height: 650px;
+      margin-top: 30px;
+      border: rgb(172, 172, 241) 2px dashed;
+      border-radius: 25px;
+    }
+
+    div.image-form img{
+      display: block;
+      border-bottom: solid grey 2px;
+    
+    }
+
+    div.content-form{
+      border: gray 1px solid;
+      border-radius: 10px;
+      border-color: transparent;
+      margin-top: 15px;
+
+    }
+
+    .form-input{
+      display: block;
+      margin-top: 5px;
+      border-radius: 5px;
+      background-color: #dcdcdc;
+      width: 300px;
+      height: 45px;
+      padding-right: 10px;
+      border: solid 2px transparent;
+      transition: 0.2s;
+     
+    }
+
+   .form-input:focus{
+    outline:none;
+    border: solid 2px rgb(253, 70, 70);
+    transition: 0.3s;
+   }
+
+   .register{
+    display: block;
+    padding: 10px;
+    background-color: rgb(230, 44, 44);
+    border: solid 2px rgb(230, 44, 44);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+    cursor: pointer;
+   }
+   
+   .register:hover{
+    background-color: transparent;
+    color: rgb(230, 44, 44);
+    transition: 1s;
+    
+   }
+
+   .caption{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    margin-top: 5px;
+
+   }
